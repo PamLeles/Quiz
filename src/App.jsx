@@ -1,11 +1,12 @@
-import { useState } from "react";
+import Welcome from "./components/welcome";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Quiz web</h1>
+      <h1>Quiz de programação</h1>
+      <Welcome />
     </div>
   );
 }
